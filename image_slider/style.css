@@ -1,0 +1,53 @@
+html,
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+}
+
+.slide {
+  position: relative;
+  width: 60%;
+  height: 40rem;
+  overflow: hidden;
+}
+
+.slide .slider {
+  width: 100%;
+  animation: 20s sliding infinite;
+  display: flex;
+}
+
+img {
+  width: 100%;
+}
+
+@keyframes sliding {
+  0% {
+    transform: translateX(0%);
+  }
+  30% {
+    transform: translateX(-0%);
+  }
+  35% {
+    transform: translateX(-100%);
+  }
+  60% {
+    transform: translateX(-100%);
+  }
+  65% {
+    transform: translateX(-200%);
+  }
+  90% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
