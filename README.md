@@ -1,2 +1,2 @@
-# <div stlye="text-align:center;"><p>🚀 HELLO 🚀</p></div>
+# <p style="text-align: center;">🚀 HELLO 🚀</p>
 ## WELCOME TO MY CODE REPOSITORY
